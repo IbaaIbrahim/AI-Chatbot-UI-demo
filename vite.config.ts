@@ -16,6 +16,9 @@ export default defineConfig({
     dedupe: ['react', 'react-dom'],
   },
   server: {
+    allowedHosts: [
+      "chat.v2202503187605326384.powersrv.de"
+    ],
     watch: {
       // Watch the linked library for changes (including CSS)
       ignored: ['!**/node_modules/@flowdit/**'],
