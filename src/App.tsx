@@ -1,5 +1,5 @@
-import { FullScreenChat, ChatbotProvider, initializeAPI } from '@flowdit/chatbot-library'
-import '@flowdit/chatbot-library/dist/styles.css'
+import { FullScreenChat, ChatbotProvider, initializeAPI } from 'flowdit-chatbot-library'
+import 'flowdit-chatbot-library/dist/styles.css'
 
 import './App.css'
 
